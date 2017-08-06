@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #272f45;
+	color: #ffffff;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: rgba(255, 255, 255, 0.3);
+}
+.btn:hover{
+	color: #828282;
+	text-decoration: none;
+}
+.btn:active{
+	color: rgba(130, 130, 130, 0.3);
+}
+
+.gina{
+	height: 690px;
+	width: 1160px;
+	background-image: url("../image/Ginaproduct.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
