@@ -1,4 +1,5 @@
 body{
+	min-width: 1180px;
 	margin: 0;
 	padding: 0;
 	background-color: #272f45;
@@ -21,11 +22,85 @@ a:active {
 .btn:active{
 	color: rgba(130, 130, 130, 0.3);
 }
-
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+	width: 1160px;
+	margin: 0 auto;
+}
+.page-header {
+	min-height: 126px;
+	padding-top: 36px;
+}
+.header-logo {
+	float: left;
+	width: 295px;
+	height: 71px;
+}
+.header-search{
+	float: right;
+	width: 176px;
+	height: 30px;
+}
+.header-top {
+	margin-bottom: 154px;
+}
 .gina{
+	margin: 0 auto;
 	height: 690px;
 	width: 1160px;
 	background-image: url("../image/Ginaproduct.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.content-mid {
+	margin: 0 auto;
+	min-width: 1160px;
+	margin-top: 40px;
+}
+.beoplay {
+	float: left;
+	width: 560px;
+	height: 520px;
+	background-image: url("../image/Rectangle2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.leica {
+	margin-left: 40px;
+	float: left;
+	width: 560px;
+	height: 520px;
+	background-image: url("../image/LeicaMPproduct.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.molecule {
+	width: 360px;
+	height: 440px;
+	background-image: url("../image/Rectangle1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.p9 {
+	width: 360px;
+	height: 440px;
+	background-image: url("../image/Rectangle4.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.dr {
+	width: 360px;
+	height: 440px;
+	background-image: url("../image/Rectangle.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
