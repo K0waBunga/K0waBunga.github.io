@@ -1,9 +1,14 @@
+@font-face {
+	font-family: HKGrotesk-Light;
+	src: url(../fonts/HKGrotesk-Light.otf);
+}
 body{
 	min-width: 1180px;
 	margin: 0;
 	padding: 0;
 	background-color: #272f45;
 	color: #ffffff;
+	font-family: HKGrotesk-Light;
 }
 a {
 	text-decoration: none;
@@ -58,7 +63,6 @@ a:active {
 	background-size: cover;
 }
 .content-mid {
-	margin: 0 auto;
 	min-width: 1160px;
 	margin-top: 40px;
 }
@@ -81,7 +85,13 @@ a:active {
 	background-position: center;
 	background-size: cover;
 }
+.content-bot {
+	margin: 0 auto;
+	min-width: 1160px;
+	margin-top: 40px;
+}
 .molecule {
+	float: left;
 	width: 360px;
 	height: 440px;
 	background-image: url("../image/Rectangle1.jpg");
@@ -90,6 +100,8 @@ a:active {
 	background-size: cover;
 }
 .p9 {
+	margin-left: 40px;
+	float: left;
 	width: 360px;
 	height: 440px;
 	background-image: url("../image/Rectangle4.jpg");
@@ -98,10 +110,30 @@ a:active {
 	background-size: cover;
 }
 .dr {
+	margin-left: 40px;
+	float:left;
 	width: 360px;
 	height: 440px;
 	background-image: url("../image/Rectangle.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+.page-footer {
+	margin-top: 150px;
+}
+.footer-top h3 {
+	font-size: 34px;
+	text-align: center;
+}
+.footer-top p {
+	text-align: center;
+	font-size: 18px;
+}
+/*Работаем со шрифтами на странице*/
+.gina p {
+	font-size: 32px;
+}
+.gina .btn {
+	font-size: 24px;
 }
