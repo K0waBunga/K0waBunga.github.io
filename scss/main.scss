@@ -1,0 +1,15 @@
+//config
+
+@import "config/variables.scss";
+
+// base
+@import "layout/adjustment.scss";
+@import "layout/base.scss";
+@import "layout/font.scss";
+
+// section
+
+@import "section/intro.scss";
+@import "section/best.scss";
+@import "section/reviews.scss";
+
